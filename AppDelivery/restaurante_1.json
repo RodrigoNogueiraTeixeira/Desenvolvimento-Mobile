@@ -1,0 +1,17 @@
+{
+  "nome": "Pizzaria do Bairro",
+  "email": "contato@pizzariadobairro.com",
+  "endereco": "Rua das Flores, 123",
+  "menu": [
+    {
+      "numero_item": 1,
+      "descricao": "Pizza Calabresa",
+      "preco": 45.0
+    },
+    {
+      "numero_item": 2,
+      "descricao": "Refrigerante 2L",
+      "preco": 10.0
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+id_pedido;data_hora;email_restaurante;nome_restaurante;telefone_cliente;nome_cliente;endereco_cliente;numero_item;quantidade;descricao_item;valor_unitario;valor_total_item;status
+1;2026-08-11 06:43:52;contato@pizzariadobairro.com;Pizzaria do Bairro;6298234123;Rodrigo;Rua jose;2;1;Refrigerante 2L;10.00;10.00;4

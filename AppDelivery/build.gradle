@@ -1,0 +1,39 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.22'
+    id 'application'
+}
+
+group = 'com.delivery'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Biblioteca Gson para ler e salvar JSON
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+// Configura a versao do Java
+kotlin {
+    jvmToolchain(21)
+}
+
+// Task para rodar o App do Restaurante no terminal
+tasks.register('runRestaurante', JavaExec) {
+    group = 'application'
+    description = 'Roda o aplicativo do Restaurante'
+    mainClass = 'RestauranteAppKt'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+// Task para rodar o App do Cliente no terminal
+tasks.register('runCliente', JavaExec) {
+    group = 'application'
+    description = 'Roda o aplicativo do Cliente'
+    mainClass = 'ClienteAppKt'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}

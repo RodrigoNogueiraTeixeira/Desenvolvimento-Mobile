@@ -1,0 +1,12 @@
+{
+  "nome": "Teste",
+  "email": "teste@gmail.com",
+  "endereco": "teste",
+  "menu": [
+    {
+      "numero_item": 1,
+      "descricao": "nada",
+      "preco": 20.0
+    }
+  ]
+}
