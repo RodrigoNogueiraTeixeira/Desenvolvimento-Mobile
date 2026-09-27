@@ -52,8 +52,7 @@ fun CalculatorTheme(content: @Composable () -> Unit) {
             primary = Color(0xFFFF9F0A),
             background = Color.Black,
             surface = Color(0xFF1C1C1E),
-            onBackground = Color.White,
-            onSurface = Color.White
+            onBackground = Color.White
         ),
         content = content
     )
